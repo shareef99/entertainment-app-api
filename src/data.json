@@ -1,0 +1,22 @@
+{
+  "email": "nadeemshareef934@gmail.com",
+  "bookmark": [
+    {
+      "backdrop_path": "/aqyeIdqUzVBwd22mXHI7I6tk1EM.jpg",
+      "id": 227042,
+      "original_name": "Clanes",
+      "overview": "When her father's murder reveals a hidden double life, a lawyer seeks revenge by infiltrating a Galician drug cartel and becoming close to its leader.",
+      "poster_path": "/aTzuzMV8x4CVAAe6MQNDS3oTTGu.jpg",
+      "media_type": "tv",
+      "adult": false,
+      "name": "Gangs of Galicia",
+      "original_language": "es",
+      "genre_ids": [18, 80],
+      "popularity": 210.71,
+      "first_air_date": "2024-06-21",
+      "vote_average": 7.8,
+      "vote_count": 5,
+      "origin_country": ["ES"]
+    }
+  ]
+}
