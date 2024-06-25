@@ -1,57 +1,142 @@
-# Youtube Subscriber API Project
+<div align="center">
+  <h1 align="center">
+    <br> 
+    Entertainment App Backend
+  </h1>
+  <h3>Alma Better Capstone Project</h3>
+  <h3>Developed with</h3>
 
-Youtube subscriber Api to get the subscribers from database using Node.js , Express.js and MongoDB and Mongoose. User can access three different dataset.
-All subscriber, all subscribers with only name and subscriber with id
+  <p align="center">
+    <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js" alt="NextJS" />
+    <img src="https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black" alt="React" />
+    <img src="https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/tailwindcss-0F172A?&logo=tailwindcss" alt="TailwindCSS" />
+    <img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=flat&logo=HTML5&logoColor=white" alt="HTML5" />
+  </p>
+</div>
 
-### TABLE OF CONTENTS
+---
 
-- <a href="#introduction">Introduction</a>
-- <a href="#features">Features</a>
-- <a href="#technology-languages-used">Technology/Languages</a>
-- <a href="#how-to-run-locally">How to Run Locally</a>
+## 📖 Table of Contents
 
-## Introduction
+- [📍 Overview](#📍-overview)
+- [📦 Features](#📦-features)
+- [🚀 Getting Started](#🚀-getting-started)
+  - [🔧 Installation](#🔧-installation)
+  - [🤖 Running Entertainment App API](#🤖-running-flashcard-generator)
+- [🤝 Contributing](#🤝-contributing)
 
-### MongoDB Schema Structure
+---
 
-### Field --> Type
+## 📍 Overview
 
-- \_id --> ObjectID
-- name --> String
-- subscribedChannel --> String
-- subscribedDate --> Date
+- The Entertainment App allows users to search for their preferred movies or TV series and has the added functionality of bookmarking their favorites.
 
-## Features
+- TMDB API is used to fetch the movies and tvs data.
 
-- Access all subscribers from database
-- Access particular subscriber from database through ID of subscriber
-- Access subscribers list with name and subscribed channels
+- User can bookmark TV Shows and movies making the experience personalize.
 
-## Technology Languages Used
+---
 
-- NodeJS
-- ExpressJS
-- MongoDB
-- Mongoose
-- JavaScript
+## 📦 Features
 
-## How to Run locally
+1. **Trending:**
 
-- To run this project locally, use the following command in your CLI:
+   - The Trending page is the app's central hub, showcasing the most recent and trending movies and TV series in an organized grid system. Users are greeted with an enticing display of captivating content.
 
-```bash
-git clone https://github.com/shareef99/youtube-subscriber-api.git
+2. **Movies:**
+
+   - The Movies Page is dedicated to a diverse collection of movies, offering users a wide array of cinematic choices. Whether users are seeking action-packed adventures, heartfelt dramas, or thrilling mysteries, this page provides a comprehensive catalog of films to cater to varied tastes.
+
+3. **TV Series:**
+
+   - The TV Series Page is designed to cater to television enthusiasts, presenting an extensive selection of TV series spanning across different genres. From riveting dramas to side-splitting comedies, users can explore and binge-watch their favorite shows through this dedicated section.
+
+4. **Bookmarks:**
+
+   - The Bookmark page serves as a personalized space where users can curate their own entertainment library. Here, users can effortlessly add or remove bookmarked movies and TV series, tailoring their viewing experience to align with their preferences. This feature ensures that users have easy access to their favorite content at anytime.
+
+5. **Sign Up:**
+
+   - Aspiring users are granted access to a registration form to initiate their onboarding process
+
+6. **Login:**
+   - Returning users, who have already completed the sign-up process, are provided a platform to access the application securely. This enables them to explore the app while retaining access to their meticulously curated bookmarked items.
+
+---
+
+## 🚀 Getting Started
+
+---
+
+- ### 🔧 Installation
+
+1. Clone the entertainment-app-api repository:
+
+```sh
+git clone https://github.com/shareef99/entertainment-app-api.git
 ```
 
-- Open your favorite code editor and run locally!
+2. Change to the project directory:
 
-```bash
-  pnpm install
-  pnpm run dev
+```sh
+cd entertainment-app-api
 ```
 
-- Open any browser and type in address bar > localhost:9000/docs
+3. Install the dependencies:
 
-## **Deployment**
+```sh
+pnpm install
+```
 
-https://youtube-subscriber-api.onrender.com/
+### 🤖 Running entertainment-app-api
+
+```sh
+pnpm run dev
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Here are several ways you can contribute:
+
+- **[Submit Pull Requests](https://github.com/shareef99/entertainment-app-api/pulls)**: Review open PRs, and submit your own PRs.
+- **[Report Issues](https://github.com/shareef99/entertainment-app-api/issues)**: Submit bugs found or log feature requests.
+
+#### _Contributing Guidelines_
+
+<details closed>
+  <summary>Click to expand</summary>
+
+1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
+2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
+
+   ```sh
+   git clone <your-forked-repo-url>
+   ```
+
+3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
+
+   ```sh
+   git checkout -b new-feature-x
+   ```
+
+4. **Make Your Changes**: Develop and test your changes locally.
+5. **Commit Your Changes**: Commit with a clear and concise message describing your updates.
+
+   ```sh
+   git commit -m 'Implemented new feature x.'
+   ```
+
+6. **Push to GitHub**: Push the changes to your forked repository.
+
+   ```sh
+   git push origin new-feature-x
+   ```
+
+7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
+
+Once your PR is reviewed and approved, it will be merged into the main branch.
+
+</details>
+
+---
