@@ -21,7 +21,7 @@ const options = {
         description: "Local Server",
       },
       {
-        url: "https://youtube-subscriber-api.onrender.com/",
+        url: "https://entertainment-app-api-iymh.onrender.com/",
         description: "Live Server",
       },
     ],
