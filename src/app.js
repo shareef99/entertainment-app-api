@@ -231,7 +231,7 @@ app.put("/api/bookmark", async (req, res) => {
       return res.status(400).json({ message: "User not found" });
     }
 
-    const updatedUser = await userModel.updateOne(
+    await userModel.updateOne(
       { email: payload.email },
       { $set: { bookmarks: payload.bookmarks } }
     );
