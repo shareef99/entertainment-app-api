@@ -32,7 +32,7 @@ app.get("/", (_, res) => {
  */
 app.get("/api/users", async (_, res) => {
   try {
-    const users = await userModel.find().select("-_id -password -bookmarks");
+    const users = await userModel.find().select("-__v -password -bookmarks");
 
     res.status(200).json(users);
   } catch (err) {
